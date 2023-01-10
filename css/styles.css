@@ -1,3 +1,20 @@
+@import url(https://fonts.google.com/specimen/League+Spartan);
+
+:root {
+    --color-font-link: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'League+Spartan', sans-serif;
+}
+
+html, body {
+    font-size: 32px;
+}
 
 
 
@@ -7,5 +24,5 @@
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--color-font-link); 
 }
